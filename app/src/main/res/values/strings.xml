@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MLKit Face Detector</string>
+    <string name="menu_item_settings">Settings</string>
+
+    <!-- Settings related strings. -->
+    <string name="pref_screen_title_camerax_live_preview">CameraX live preview settings</string>
+    <string name="pref_category_face_detection">Face Detection</string>
+
+    <!-- Strings for camera settings. -->
+    <string name="pref_category_key_camera" translatable="false">pckc</string>
+    <string name="pref_category_title_camera">Camera</string>
+    <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs</string>
+    <string name="pref_key_front_camera_preview_size" translatable="false">fcpvs</string>
+    <string name="pref_key_camerax_target_analysis_size" translatable="false">ctas</string>
+    <string name="pref_key_camera_live_viewport" translatable="false">clv</string>
+    <string name="pref_title_rear_camera_preview_size">Rear camera preview size</string>
+    <string name="pref_title_front_camera_preview_size">Front camera preview size</string>
+    <string name="pref_title_camerax_target_analysis_size">CameraX target analysis resolution</string>
+    <string name="pref_title_camera_live_viewport">Enable live viewport</string>
+    <string name="pref_summary_camera_live_viewport">Do not block camera preview drawing on detection</string>
+
+    <!-- Strings for face detector landmark mode preference. -->
+    <string name="pref_title_face_detector_landmark_mode">Landmark mode</string>
+    <string name="pref_key_live_preview_face_detection_landmark_mode" translatable="false">lpfdlm</string>
+    <string name="pref_entries_face_detector_landmark_mode_no_landmarks">No landmarks</string>
+    <string name="pref_entries_face_detector_landmark_mode_all_landmarks">All landmarks</string>
+    <!-- The following entry values must match the ones in FaceDetectorOptions#LandmarkMode -->
+    <string name="pref_entry_values_face_detector_landmark_mode_no_landmarks" translatable="false">1</string>
+    <string name="pref_entry_values_face_detector_landmark_mode_all_landmarks" translatable="false">2</string>
+
+    <!-- Strings for face detector contour mode preference. -->
+    <string name="pref_title_face_detector_contour_mode">Contour mode</string>
+    <string name="pref_key_live_preview_face_detection_contour_mode" translatable="false">lpfdcm</string>
+    <string name="pref_entries_face_detector_contour_mode_no_contours">No contours</string>
+    <string name="pref_entries_face_detector_contour_mode_all_contours">All contours</string>
+    <!-- The following entry values must match the ones in FaceDetectorOptions#ContourMode -->
+    <string name="pref_entry_values_face_detector_contour_mode_no_contours" translatable="false">1</string>
+    <string name="pref_entry_values_face_detector_contour_mode_all_contours" translatable="false">2</string>
+
+    <!-- Strings for face detector classification mode preference. -->
+    <string name="pref_key_live_preview_face_detection_classification_mode" translatable="false">lpfdcfm</string>
+
+    <!-- Strings for face detector performance mode preference. -->
+    <string name="pref_title_face_detector_performance_mode">Performance mode</string>
+    <string name="pref_key_live_preview_face_detection_performance_mode" translatable="false">lpfdpm</string>
+    <string name="pref_entries_face_detector_performance_mode_fast">Fast</string>
+    <string name="pref_entries_face_detector_performance_mode_accurate">Accurate</string>
+    <!-- The following entry values must match the ones in FaceDetectorOptions#PerformanceMode -->
+    <string name="pref_entry_values_face_detector_performance_mode_fast" translatable="false">1</string>
+    <string name="pref_entry_values_face_detector_performance_mode_accurate" translatable="false">2</string>
+
+    <!-- Strings for face detector min face size preference. -->
+    <string name="pref_title_face_detector_min_face_size">Minimum face size</string>
+    <string name="pref_key_live_preview_face_detection_min_face_size" translatable="false">lpfdmfs</string>
+    <string name="pref_dialog_message_face_detector_min_face_size">Proportion of the head width to the image width, and the valid value range is [0.0, 1.0]</string>
+    <string name="pref_toast_invalid_min_face_size">Minimum face size must be a float value and in the range [0.0, 1.0]</string>
+
+    <!-- Strings for toast messages -->
+    <string name="right_eye_wink_detected">Right eye wink detected</string>
+    <string name="left_eye_wink_detected">Left eye wink detected</string>
+    <string name="smile_detected">Smile detected</string>
+    <string name="face_turned_up_detected">Face turned up detected</string>
+    <string name="face_turned_down_detected">Face turned down detected</string>
+    <string name="face_turned_left_detected">Face turned left detected</string>
+    <string name="face_turned_right_detected">Face turned right detected</string>
+    <string name="face_tilted_right_detected">Face tilted right detected</string>
+    <string name="face_tilted_left_detected">Face tilted left detected</string>
+
+</resources>
