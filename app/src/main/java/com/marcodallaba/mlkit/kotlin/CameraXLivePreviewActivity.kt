@@ -40,8 +40,8 @@ import com.marcodallaba.mlkit.kotlin.preference.SettingsActivity
 import com.marcodallaba.mlkit.kotlin.preference.SettingsActivity.LaunchSource
 import com.marcodallaba.mlkit.kotlin.viewmodels.CameraXViewModel
 import com.marcodallaba.mlkit.kotlin.visionprocessors.VisionImageProcessor
-import com.marcodallaba.mlkit.vision.demo.R
-import com.marcodallaba.mlkit.vision.demo.databinding.ActivityCameraxLivePreviewBinding
+import com.marcodallaba.mlkit.R
+import com.marcodallaba.mlkit.databinding.ActivityCameraxLivePreviewBinding
 import java.util.*
 
 

@@ -28,7 +28,7 @@ import com.google.mlkit.vision.face.FaceDetection
 import com.google.mlkit.vision.face.FaceDetector
 import com.google.mlkit.vision.face.FaceDetectorOptions
 import com.google.mlkit.vision.face.FaceLandmark
-import com.marcodallaba.mlkit.vision.demo.R
+import com.marcodallaba.mlkit.R
 import java.util.Locale
 
 

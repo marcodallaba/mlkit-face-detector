@@ -21,7 +21,7 @@ import android.util.Log
 import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.preference.*
-import com.marcodallaba.mlkit.vision.demo.R
+import com.marcodallaba.mlkit.R
 
 /**
  * Configures CameraX live preview demo settings.

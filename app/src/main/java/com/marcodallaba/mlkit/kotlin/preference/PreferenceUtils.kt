@@ -21,7 +21,7 @@ import android.util.Size
 import androidx.annotation.StringRes
 import androidx.preference.PreferenceManager
 import com.google.mlkit.vision.face.FaceDetectorOptions
-import com.marcodallaba.mlkit.vision.demo.R
+import com.marcodallaba.mlkit.R
 
 
 /**

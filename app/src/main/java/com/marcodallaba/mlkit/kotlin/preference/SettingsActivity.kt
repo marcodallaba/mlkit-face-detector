@@ -19,7 +19,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceFragmentCompat
 import com.marcodallaba.mlkit.kotlin.preference.SettingsActivity.LaunchSource
-import com.marcodallaba.mlkit.vision.demo.R
+import com.marcodallaba.mlkit.R
 
 /**
  * Hosts the preference fragment to configure settings for a demo activity that specified by the
