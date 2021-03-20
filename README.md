@@ -1,4 +1,7 @@
 # ML Kit Face Movements Detector
+Starting from this project: https://github.com/googlesamples/mlkit/tree/master/android/vision-quickstart
+
+This app recognizes face movements likes eye's wink or smile using ML Kit
 
 ## License
 
